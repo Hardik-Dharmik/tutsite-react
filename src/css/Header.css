@@ -1,0 +1,18 @@
+.header__leftIcons .MuiSvgIcon-root{
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    color: blue;
+}
+
+.header__leftIcons .MuiSvgIcon-root:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.nav-link{
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+}
