@@ -28,6 +28,7 @@
 
 .index-module_type__E-SaG {
     font-size:30px !important;
+    margin-top: 10px;
 }
 
 .main__btn{
@@ -36,5 +37,6 @@
     border: none;
     padding:10px 20px;
     border-radius: 30px;
+    margin-top: 30px;
 }
 
