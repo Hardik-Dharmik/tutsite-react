@@ -1,4 +1,6 @@
 import "../css/Header.css";
+import React from "react";
+import logo from "../img/logo1.png";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -6,7 +8,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import React, { Component } from 'react';
 
 function Header() {
   return (
@@ -14,9 +15,9 @@ function Header() {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207"
-            width="30"
-            height="30"
+            src={logo}
+            width="50"
+            height="50"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
           />

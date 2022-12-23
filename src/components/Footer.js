@@ -2,14 +2,11 @@ import "../css/Footer.css";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import React, { Component } from 'react'
+import React from "react";
 
 function Footer() {
   return (
-    <div
-      className="container-fluid position-relative overlay-top bg-dark text-white-50 py-5"
-      //   style="margin-top:90px;"
-    >
+    <div className="container-fluid position-relative overlay-top bg-dark text-white-50 py-5">
       <div className="container mt-5 pt-5">
         <div className="row">
           <div className="col-md-6 mb-5">

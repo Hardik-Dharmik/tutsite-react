@@ -23,6 +23,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
+  flex: 0.15;
+  padding-top: 20px;
+  padding-bottom: 40px ;
   -webkit-box-shadow: -1px 0px 10px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 0px 10px -2px rgba(0,0,0,0.75);
   box-shadow: -1px 0px 10px -2px rgba(0,0,0,0.75);
@@ -30,6 +34,7 @@
 
 .faculty__Info img {
   border-radius: 50%;
+  border:10px solid rgb(255, 255, 117);
   margin: 20px;
 }
 

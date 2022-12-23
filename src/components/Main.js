@@ -1,7 +1,8 @@
-import Button from "@mui/material/Button";
+/* eslint-disable */
+// eslint-disable-next-line
 import { TypeAnimation } from "react-type-animation";
 import "../css/Main.css";
-import React, { Component } from 'react'
+import React from "react";
 
 function Main() {
   return (
