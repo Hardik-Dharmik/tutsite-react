@@ -1,0 +1,38 @@
+.carousel-control-next-icon {
+  background-color: rgba(41, 119, 228, 0.9) !important;
+  color: yellow !important;
+}
+
+.carousel-control-prev-icon{  
+  background-color: rgba(41, 119, 228, 0.9) !important;
+  color: yellow !important;
+}
+
+.faculty {
+  text-align: center;
+}
+
+.faculty__Group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.faculty__Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: -1px 0px 10px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 10px -2px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 10px -2px rgba(0,0,0,0.75);
+}
+
+.faculty__Info img {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.faculty__name {
+  margin-top: 10px;
+}
