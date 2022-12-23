@@ -6,6 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import React, { Component } from 'react';
 
 function Header() {
   return (

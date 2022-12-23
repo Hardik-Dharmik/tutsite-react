@@ -2,6 +2,7 @@ import "../css/Footer.css";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import React, { Component } from 'react'
 
 function Footer() {
   return (

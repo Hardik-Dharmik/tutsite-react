@@ -1,6 +1,7 @@
 import Button from "@mui/material/Button";
 import { TypeAnimation } from "react-type-animation";
 import "../css/Main.css";
+import React, { Component } from 'react'
 
 function Main() {
   return (
