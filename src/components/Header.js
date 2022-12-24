@@ -25,21 +25,21 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
 
             <NavDropdown title="Courses" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="#course">
                 8th to 1oth State and CBSE
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="#course">
                 11th and 12th State
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">JEE</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">NEET</NavDropdown.Item>
+              <NavDropdown.Item href="#course">JEE</NavDropdown.Item>
+              <NavDropdown.Item href="#course">NEET</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Faculties</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="#faculties">Faculties</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <div className="header__leftIcons">
             <FacebookIcon />

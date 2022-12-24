@@ -8,8 +8,8 @@ function Main() {
   return (
     <div className="jumbotron">
       <div className="main text-center py-5">
-        <h3>fvngjb</h3>
-        <h1>Education</h1>
+        <h1>Wisdom Quality Education</h1>
+        <h3>Realize your dreams</h3>
         <TypeAnimation
           sequence={[
             "8th and 9th State and CBSE",
@@ -29,7 +29,9 @@ function Main() {
           style={{ fontSize: "2em" }}
         />
 
-        <button className="main__btn">Contact Now</button>
+        <a className="main__btn" href="#contact">
+          Contact Now
+        </a>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path

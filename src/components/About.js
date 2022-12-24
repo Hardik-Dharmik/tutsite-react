@@ -3,7 +3,7 @@ import logo from "../img/logo.png";
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <div className="container-fluid py-5">
         <div className="container py-5">
           <div className="row">

@@ -32,11 +32,16 @@
 }
 
 .main__btn{
+    text-decoration: none;
     color: #fff;
     background-color: #f14d5d;
     border: none;
     padding:10px 20px;
     border-radius: 30px;
     margin-top: 30px;
+}
+
+.main a:hover{
+    color: #fff;
 }
 
